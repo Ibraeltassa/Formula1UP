@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 de maluco</title>
+    <link rel="stylesheet" href="corrida.css">
+    <script src="corrida.js"></script>
+</head>
+<body>
+    <header>
+        <h1>FORMULA 1 DE MALUCO!!</h1>
+
+    </header>
+
+    <section class="Menu">
+    <div class="container">
+        <div class="car-container">
+            <h3>Choose your car: </h3>
+            <div class="car-buttons">
+                    <button id="ChooseCar1" onclick="chooseCar(1)">Car 1</button>
+                    <button id="ChooseCar2" onclick="chooseCar(2)">Car 2</button>
+                    <button id="ChooseCar3" onclick="chooseCar(3)">Car 3</button>
+                    <button id="ChooseCar4" onclick="chooseCar(4)">Car 4</button>
+                    <button id="ChooseCar5" onclick="chooseCar(5)">Car 5</button>
+            </div>
+            <br>
+            <p id="Result"></p>
+        </div>
+        <div class="bet-container">
+            <input type="number" id="betValue" placeholder="Bet Amount">
+            <br>
+            <br>
+            <button id="toBet" onclick="toBet()">TO BET</button>
+        </div>
+        <div class="wallet-container">
+            <h2>WALLET: $ <span id="wallet">100</span></h2>
+            <br>
+            <input type="number" id="addValueInput" placeholder="addValue">
+            <button id="addValueButton" onclick="addValue()">Add Value</button>
+        </div>
+    </div>
+    </section>
+
+    <div class="pista">
+        <div id="car1"></div>
+        <div id="car2"></div>
+        <div id="car3"></div>
+        <div id="car4"></div>
+        <div id="car5"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+.pista{
+    width: 1900px;
+    height: 600px;
+    background-color: lightgray;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+}
+
+#car1{
+    position: absolute;
+    background-color: blue;
+    width: 85px;
+    height: 30px;
+    top: 10px;
+}
+
+#car2{
+    position: absolute;
+    background-color: red;
+    width: 85px;
+    height: 30px;
+    top: 100px;
+}
+
+#car3{
+    position: absolute;
+    background-color: yellow;
+    width: 85px;
+    height: 30px;
+    top: 200px;
+}
+
+#car4{
+    position: absolute;
+    background-color: rgb(17, 218, 17);
+    width: 85px;
+    height: 30px;
+    top: 300px;
+}
+
+#car5{
+    position: absolute;
+    background-color: rgb(228, 61, 153);
+    width: 85px;
+    height: 30px;
+    top: 400px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15rem;
+    align-items: center;
+}
+
+button{
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.car-buttons {
+    display: flex;
+    justify-content: center;
+}
