@@ -18,7 +18,7 @@ function timer1(){
     const car1 = document.getElementById("car1");
     if(posX1 > 1780){
       posX1 = 1780;
-      car1.style.transform = "translateX(" + posX2 + "px )";
+      car1.style.transform = "translateX(" + posX1 + "px )";
       winner();
     }
     car1.style.transform = "translateX(" + posX1 + "px)";
@@ -152,5 +152,5 @@ function timer1(){
     document.getElementById("wallet").innerText = wallet;
     
     // Limpar o campo de entrada
-    document.getElementById("addValueButton").value = "";
+    document.getElementById("addValueInput").value = "";
 }
